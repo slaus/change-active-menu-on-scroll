@@ -1,0 +1,51 @@
+@import url("reset.css");
+
+h3 {
+	font-size: 26px;
+}
+.section {
+	min-height: 768px;
+	height: 100vh;
+	text-align: center;
+	padding: 70px 20px;
+}
+.section:nth-child(even){
+	background-color: #f3f2e8;
+}
+.section-home {
+	background: url(http://lorempixel.com/1900/1000/city/) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+.section-home h3,
+.section-home p {
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, .9);
+}
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+.ubermenu ul {
+    margin: 20px 0;
+    text-align: center;
+}
+.ubermenu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.ubermenu a {
+    color: #fff;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+}
+.ubermenu a:hover,
+.ubermenu a.active {
+    color: #e0a2a2;
+}
